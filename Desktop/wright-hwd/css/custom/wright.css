@@ -422,8 +422,8 @@ button.theme-btn-1:hover {
 }
 
 /* controls the our specials section */
-#new-patient-offers {
-	background-image: url("/img/field-bkgd_specials.jpg");
+#specials {
+	background-image: url("../../img/field-bkgd_specials.jpg");
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -431,7 +431,7 @@ button.theme-btn-1:hover {
 
 /* controls the patient reviews section */
 #patient-reviews-api {
-	background-image: url("/img/cincinatti-reviews-bkgd.jpg");
+	background-image: url("../../cincinatti-reviews-bkgd.jpg");
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;	
@@ -439,7 +439,7 @@ button.theme-btn-1:hover {
 
 /* controls the no insurance section */
 #no-insurance {
-	background-image: url("/img/membership-row-wright.jpg");
+	background-image: url("../../membership-row-wright.jpg");
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -451,7 +451,7 @@ button.theme-btn-1:hover {
 
 /* controls the mobile membership club section */
 #membership-club-mobile {
-	background-image: url("/img/membership-row-wright.jpg");
+	background-image: url("../../membership-row-wright.jpg");
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
