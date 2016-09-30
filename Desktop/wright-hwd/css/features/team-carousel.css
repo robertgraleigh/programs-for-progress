@@ -1,0 +1,37 @@
+/* ======================
+	Team Carousel Feature
+====================== */
+
+/* resets the team carousel div spacing */
+.team-carousel {
+	margin: 0px;
+	padding:0px;
+}
+
+/* overrides the default owl prev background color */
+.owl-prev {
+	background-color: #846A20 !important;
+	color: #ffffff;
+	margin-left: 0px;
+}
+
+/* overrides the default owl prev background color */
+.owl-prev:hover {
+	background-color: #846A20 !important;
+	color: #ffffff;
+	margin-left: 0px;
+}
+
+/* overrides the default owl next background color */
+.owl-next {
+	background-color: #846A20 !important;
+	color: #ffffff;
+	margin-right: 0px;
+}
+
+/* overrides the default owl next background color */
+.owl-next:hover {
+	background-color: #846A20 !important;
+	color: #ffffff;
+	margin-right: 0px;
+}

@@ -1,0 +1,26 @@
+/* ========================
+	Call-to-action Feature
+======================== */
+
+/* controls the new patients mobile call-to-action */
+#new-patients-existing-mobile-cta- {
+	margin: 0px;
+	background-color: #ffffff;
+	border: solid 2px #333333;
+}
+
+/* controls the  new patients existing desktop call-to-action */
+#new-patients-existing-desktop-cta {
+	margin: 0px;
+	background-color: #578fb0;
+	color: #ffffff;
+	border-radius: 0px;	
+}
+
+/* controls the new patients w/o existing desktop call-to-action */
+#new-patients-cta {
+	margin: 0px;
+	background-color: #578fb0;		
+	color: #ffffff;
+	border-radius: 0px;
+}

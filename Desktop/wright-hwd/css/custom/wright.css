@@ -1,0 +1,660 @@
+/* sets the default font size */
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+/* sets the default body font size based on html value */
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+}
+
+nav {
+	margin: 0px !important;
+}
+
+/* overrides the default header section */
+header {
+	margin: 0px !important;
+}
+
+/* overrides default grid padding */
+section {
+	margin: 0px;
+	padding: 40px 0px 40px 0px;
+}
+
+/* overrides the default grid pladding */
+footer {
+	padding: 40px 0px 40px 0px;
+}
+
+ul {
+	list-style: none;
+}
+
+/* 
+	Custom Typography Settings
+*/
+
+/* headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* creates a custom h1 header class for custom sizing */
+h1.header {
+	margin: 0px 0px 0px 0px;
+}
+
+/* creates a custom h2 header class for custom sizing */
+h2.header {
+	margin: 0px 0px 0px 0px;	
+}
+
+/* creates a custom h3 header class for custom sizing */
+h3.header {
+	font-weight: normal;
+	margin: 0px 0px 0px 0px;	
+}
+
+/* creates a custom h4 header class for custom sizing */
+h4.header {
+	margin: 0px 0px 0px 0px;	
+}
+
+/* creates a custom h5 header class for custom sizing */
+h5.header {
+	margin: 0px 0px 0px 0px;	
+}
+
+/* creates a custom h6 header class for custom sizing */
+h6.header {
+	margin: 0px 0px 0px 0px;	
+}
+
+/*  */
+p {
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+}
+
+/* sets the default text class */
+.text {
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: normal;
+}
+
+/* sets the default serif regular text class */
+.serif-reg {
+	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
+	font-weight: normal;
+}
+
+/* sets the default serif bold text class */
+.serif-bold {
+	font-family: "Merriweather", "Georgia", "Times New Roman", serif;
+	font-weight: bold;
+}
+
+/* sets the default sans-serif regular text class */
+.sans-serif-reg {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+}
+
+/* sets the default sans-serif bold text class */
+.sans-serif-bold {
+	font-family: "Lato Black", "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: bold;
+}
+
+.xs-text {
+	font-size: 0.5rem;
+}
+
+.sm-text {
+	font-size: 0.75rem;
+}
+
+.md-text {
+	font-size: 1.2rem;
+}
+
+.lg-text {
+	font-size: 64px;
+}
+
+.xl-text {
+	font-size: 72px;
+}
+
+
+
+/* sets the bold text class */
+.text-bold {
+	font-weight: bold;
+}
+
+/* sets the capitalize text class */
+.text-capitalize {
+	text-transform: capitalize;
+}
+
+/* sets the uppercase text class */
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+/* sets the underline text class */
+.text-underline {
+	text-decoration: underline;
+}
+
+/* sets the inverse text class */
+.text-inverse {
+	color: #ffffff !important;
+}
+
+/* sets the description text class */
+.description {
+	font-family: "Merriweather", "Georgia", serif;
+	font-weight: normal;
+	font-size: 14px !important;	
+	margin: 30px 0px 15px 0px;
+	padding: 0px;	
+}
+
+/* sets the default link */
+a {
+	font-size: 18px !important;
+	font-weight: normal;
+}
+
+/* sets the default link hover */
+a:hover {
+	text-decoration: underline !important;
+}
+
+/* sets overrides for the read more links in description */
+a.read-more-1 {
+	font-size: 16px;
+	color: #E57C4B;
+	text-decoration: none;
+}
+
+a.read-more-1:hover {
+	font-size: 16px; 
+	color: #E57C4B;
+	text-decoration: underline;
+}
+
+a.read-more-2 {
+	font-size: 16px;
+	color: goldenrod;
+	text-decoration: none;
+}
+
+a.read-more-2:hover {
+	font-size: 16px; 
+	color: goldenrod;	
+	text-decoration: underline;
+}
+
+/* ====================
+	Custom Theme Colors
+==================== */
+
+/* sets the primary theme color for interactive theme elements */
+.theme-color-1 {
+	color: #E57C4B;
+}
+
+/* secondary theme color for interactive theme elements  */
+.theme-color-2 {
+	color: #0D2D3F !important;
+}
+
+/* sets the tertiary theme color for interactive theme elements */
+.theme-color-3 {
+	color: #846A20 !important;
+}
+
+/*  */
+.theme-color-4 {
+	color: #6F6D6A;
+}
+
+/* sets the  */
+.theme-color-5 {
+	color: #0D2D3F;
+}
+
+/* controls the facebook icon */
+.facebook-icon {
+	background-color: #ffffff;
+	overflow: hidden;
+	color: blue;
+}
+
+/* controls the specials section-1 background color */
+.specials-color-1 {
+	background-color: #C95E2D;
+}
+
+/* controls the specials section-2 background color*/
+.specials-color-2 {
+	background-color: #846A20;
+}
+
+/* controls the specials section-3 background color */
+.specials-color-3 {
+	background-color: #0D2D3F;
+}
+
+/* =================
+	Custom Theme Links
+================= */ 
+
+/* sets the primary theme link color */
+a.link-color-1 {
+	color: #C95E2D !important;
+}
+
+a.link-color-1:hover {
+	color: #C95E2D;
+	text-decoration: underline;
+}
+
+/* sets the secondary theme link color */
+a.link-color-2 {
+	color: #0D2D3F !important;
+}
+
+a.link-color-2:hover {
+	color: #0D2D3F;
+	text-decoration: underline;
+}
+
+/* sets the tertiary theme link color */
+a.link-color-3 {
+	color: #846A20 !important;
+}
+
+/* sets the tertiary theme link color */
+a.link-color-3:hover {
+	color: #846A20;
+}
+
+/* sets the tertiary theme link color */
+a.link-color-4 {
+	color: #6F6D6A !important;
+}
+
+/* sets the tertiary theme link color */
+a.link-color-4:hover {
+	color: #6F6D6A;
+	text-decoration: underline;	
+}
+
+/* sets the primary theme button color */
+a.theme-btn-1 {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 15px 40px 15px 40px;
+	background-color: #C95E2D !important;	
+	border-radius: 15px;	
+	border: solid 2px #fcfcfc;
+	color: #fcfcfc;
+}
+
+a.theme-btn-1:hover {
+	padding: 15px 40px 15px 40px;
+	border: solid 2px #fcfcfc;
+	background-color: #C95E2D !important;	
+	border-radius: 15px;	
+	color: #fcfcfc !important;
+	text-decoration: underline;
+}
+
+a.theme-btn-1:active {
+	padding: 15px 40px 15px 40px;
+	border: solid 2px #fcfcfc;
+	background-color: #C95E2D !important;	
+	border-radius: 15px;	
+	color: #fcfcfc !important;
+	text-decoration: underline;
+}
+
+/* sets the secondary theme link color */
+.theme-btn-2 {
+	background-color: steelblue;
+}
+
+.theme-btn-2:hover {
+	background-color: steelblue;
+}
+
+button.theme-btn-1 {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 15px 40px 15px 40px;
+	background-color: #C95E2D !important;	
+	border-radius: 15px;	
+	border: solid 2px #fcfcfc;
+	color: #fcfcfc;
+}
+
+button.theme-btn-1:hover {
+	font-family: "Lato", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 15px 40px 15px 40px;
+	background-color: #C95E2D !important;	
+	border-radius: 15px;	
+	border: solid 2px #fcfcfc;
+	color: #fcfcfc;
+}
+
+/* 
+	Custom Theme Backgrounds
+*/
+
+/* sets the primary theme background */
+.theme-background-1 {
+	background-color: #0D2D3F;
+}
+
+/* sets the secondary theme background */
+.theme-background-2 {
+	background-color: #0D2D3F;
+}
+
+/* sets the tertiary theme background */
+.theme-background-3 {
+	background-color: lightskyblue;
+}
+
+/* set the pattern theme background */
+.theme-background-4 {
+	background-image: url(/img/field-bkgd_specials.jpg);
+}
+
+/* ======================
+	Custom Theme Sections 
+====================== */
+
+
+
+/* controls the franklin wright section */
+#team {
+	background-image: url("/img/bedge_grunge_light.jpg");
+}
+
+/* controls the our specials section */
+#new-patient-offers {
+	background-image: url("/img/field-bkgd_specials.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* controls the patient reviews section */
+#patient-reviews-api {
+	background-image: url("/img/cincinatti-reviews-bkgd.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+/* controls the no insurance section */
+#no-insurance {
+	background-image: url("/img/membership-row-wright.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: auto;
+	max-height: 600px;
+	margin: 0px;
+	padding: 40px 0px 80px 0px;
+}
+
+/* controls the mobile membership club section */
+#membership-club-mobile {
+	background-image: url("/img/membership-row-wright.jpg");
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: auto;
+	max-height: 600px;
+	margin: 0px;
+	padding: 40px 0px 80px 0px;
+}
+
+/* controls the forensic dentistry section */
+#forensic-dentistry {
+	background-color: #6F6D6A;
+	color: #F9F7F4;
+}
+
+/* control the mobile desktop location styles */
+#mobile-location {
+	border: solid 2px #cccccc;
+}
+
+#mobile-location img {
+	max-height: 80px;
+	margin-top: 10px;
+}
+
+/* controls the desktop location section styles */
+#desktop-location {
+	background-image: url("../../img/forest-hills-family-dentistry.png");
+	background-position: center center;
+	background-size: cover;
+	width: auto;
+}
+
+#associations {
+
+}
+
+/* controls the desktop footer section */
+#mobile-footer {
+	padding: 30px 10px 30px 10px;
+}
+
+/* controls the desktop footer section */
+#desktop-footer {
+	padding: 20px 10px 20px 10px;
+}
+
+#desktop-footer img {
+
+}
+
+
+
+.owl-controls.clickable {
+	visibility: hidden;
+}
+
+/* centers an image */
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* sets the small phone number class */
+.phone-sm {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* sets the large phone number class */
+.phone-lg {
+	font-size: 36px;
+	font-weight: bolder;
+}
+
+/* overrides the default panel border */
+.panel {
+	border: solid 2px #fcfcfc;
+	border-radius: 15px;
+}
+
+
+/* sets a right border */ 
+.right-border {
+	border-right: solid 2px #0D2D3F;
+}
+
+/* ==============
+	Media Queries 
+============== */
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+	html {
+		font-size: 16px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+	
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	html {
+		font-size: 16px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+	
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	html {
+		font-size: 14px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+		/* overrides default html settings */
+	html {
+		font-size: 14px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+	
+}
+
+/* ==============================================
+	Media queries for portrait phones and smaller
+============================================== */
+@media (max-width: 480px) {
+	
+	/* overrides the default html settings */
+	html {
+		font-size: 12px;
+	}
+	
+	/* overrides default body browser settings */
+	body {
+		font-size: 1rem;
+	}
+	
+	/* creates an extra-small responsive text class */
+	.text-xs {
+		font-size: 0.75rem;
+	}
+
+	/* creates a small responsive text class */
+	.text-sm {
+		font-size: 0.875rem;
+	}
+
+	/* creates a regular responsive text class */
+	.text-reg {
+		font-size: 1rem;
+	}
+
+	/* creates a medium responsive text class */
+	.text-md {
+		font-size: 1.5rem;
+	}
+
+	/* creates a large responsive text class */
+	.text-lg {
+		font-size: 2.25rem;
+	}
+
+	/* creates an extra-large responsive text class */
+	.text-xl {
+		font-size: 3rem;
+	}
+
+	/* creates an extra-extra-large responsive text class */
+	.text-xxl {
+		font-size: 4rem;
+	}
+
+	/* creates a huge responsive text class */
+	.text-hu {
+		font-size: 4.5rem;
+	}
+	
+	/* sets the 1st default theme button style */
+	a.theme-btn-1 {
+		padding: 5px 25px 5px 25px;	
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
+	}
+	
+		/* sets the 1st default theme button style */
+	a.theme-btn-1:hover {
+		padding: 0px 0px 0px 0px;	
+		background-color: #C04355;
+		border: solid 2px #fcfcfc;
+		border-radius: 15px;
+		color: #fcfcfc;
+		text-transform: uppercase;
+	}
+
+}
