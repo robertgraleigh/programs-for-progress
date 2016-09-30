@@ -119,27 +119,45 @@ p {
 	font-weight: bold;
 }
 
-.xs-text {
-	font-size: 0.5rem;
-}
+/* creates an extra-small responsive text class */
+	.text-xs {
+		font-size: 0.75rem;
+	}
 
-.sm-text {
-	font-size: 0.75rem;
-}
+	/* creates a small responsive text class */
+	.text-sm {
+		font-size: 0.875rem;
+	}
 
-.md-text {
-	font-size: 1.2rem;
-}
+	/* creates a regular responsive text class */
+	.text-reg {
+		font-size: 1rem;
+	}
 
-.lg-text {
-	font-size: 64px;
-}
+	/* creates a medium responsive text class */
+	.text-md {
+		font-size: 1.5rem;
+	}
 
-.xl-text {
-	font-size: 72px;
-}
+	/* creates a large responsive text class */
+	.text-lg {
+		font-size: 2.25rem;
+	}
 
+	/* creates an extra-large responsive text class */
+	.text-xl {
+		font-size: 3rem;
+	}
 
+	/* creates an extra-extra-large responsive text class */
+	.text-xxl {
+		font-size: 4rem;
+	}
+
+	/* creates a huge responsive text class */
+	.text-hu {
+		font-size: 4.5rem;
+	}
 
 /* sets the bold text class */
 .text-bold {
@@ -589,52 +607,12 @@ button.theme-btn-1:hover {
 	
 	/* overrides the default html settings */
 	html {
-		font-size: 12px;
+		font-size: 14px;
 	}
 	
 	/* overrides default body browser settings */
 	body {
 		font-size: 1rem;
-	}
-	
-	/* creates an extra-small responsive text class */
-	.text-xs {
-		font-size: 0.75rem;
-	}
-
-	/* creates a small responsive text class */
-	.text-sm {
-		font-size: 0.875rem;
-	}
-
-	/* creates a regular responsive text class */
-	.text-reg {
-		font-size: 1rem;
-	}
-
-	/* creates a medium responsive text class */
-	.text-md {
-		font-size: 1.5rem;
-	}
-
-	/* creates a large responsive text class */
-	.text-lg {
-		font-size: 2.25rem;
-	}
-
-	/* creates an extra-large responsive text class */
-	.text-xl {
-		font-size: 3rem;
-	}
-
-	/* creates an extra-extra-large responsive text class */
-	.text-xxl {
-		font-size: 4rem;
-	}
-
-	/* creates a huge responsive text class */
-	.text-hu {
-		font-size: 4.5rem;
 	}
 	
 	/* sets the 1st default theme button style */
