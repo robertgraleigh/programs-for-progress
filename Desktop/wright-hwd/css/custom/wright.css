@@ -407,31 +407,61 @@ button.theme-btn-1:hover {
 
 /* set the pattern theme background */
 .theme-background-4 {
-	background-image: url(/img/field-bkgd_specials.jpg);
+	background-image: url(../../img/field-bkgd_specials.jpg);
 }
 
 /* ======================
 	Custom Theme Sections 
 ====================== */
 
+#banner
 
+/* controls the 1st slide of the banner carousel */
+#banner-slide-1 {
+	background-image: url("../../img/wright-slide1.jpg");
+}
+
+/* controls the 2nd slide of the banner carousel */
+#banner-slide-2 {
+	background-image: url("../../img/wright-slide2.jpg");
+}
+
+/* controls the 3rd slide of the banner carousel */
+#banner-slide-3 {
+	background-image: url("../../img/wright-slide3.jpg");
+}
+
+/* controls the new patient hotline mobile section */
+#new-patient-hotline-mobile {
+	padding: 20px 0px 20px 0px; 
+}
+
+/* controls the new patient hotline desktop section */
+#new-patient-hotline-desktop {
+	padding: 60px 0px 50px 0px;
+}
 
 /* controls the franklin wright section */
 #team {
-	background-image: url("/img/bedge_grunge_light.jpg");
+	background-image: url("../../img/bedge_grunge_light.jpg");
 }
 
-/* controls the our specials section */
-#specials {
+/* controls the new patient offers section */
+#new-patient-offers {
 	background-image: url("../../img/field-bkgd_specials.jpg");
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+/* controls the new patient existing clients section */
+#new-patient-hotline-existing {
+	padding: 60px 0px 50px 0px;
+}
+
 /* controls the patient reviews section */
-#patient-reviews-api {
-	background-image: url("../../cincinatti-reviews-bkgd.jpg");
+#reviews {
+	background-image: url("../../img/cincinatti-reviews-bkgd.jpg");
 	background-position: top center;
 	background-size: cover;
 	background-repeat: no-repeat;	
@@ -478,7 +508,7 @@ button.theme-btn-1:hover {
 }
 
 /* controls the desktop location section styles */
-#desktop-location {
+#location {
 	background-image: url("../../img/forest-hills-family-dentistry.png");
 	background-position: center center;
 	background-size: cover;
